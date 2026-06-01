@@ -1,15 +1,10 @@
-import { AnimatePresence, motion } from 'framer-motion'
-import { useState } from 'react'
-import { ArrowUpRight } from 'lucide-react'
+import { motion } from 'framer-motion'
 import { FaGithub } from 'react-icons/fa6'
 import MagneticButton from './MagneticButton'
 import SectionHeader from './SectionHeader'
 import { projects } from '../data/portfolio'
 
 export default function Projects() {
-  const [selectedProject, setSelectedProject] = useState<number | null>(null)
- 
-
   return (
     <section id="projects" className="relative px-4 py-28 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
