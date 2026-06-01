@@ -108,7 +108,7 @@ export default function Hero() {
             View Projects
           </MagneticButton>
           <MagneticButton
-            href="https://drive.google.com/file/d/1gxMgbl2jNooq-xxBWeZo-LosGgKOssZ8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dqZ9mAE0UY1iDwlm4XX9Ru_O0kIlZh7T/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             icon={<ArrowUpRight size={16} />}
